@@ -17,7 +17,7 @@
 
 self.__uv$config = {
   prefix: "/active/uv/",
-  wisp: 'wss://wisp.tomp.app/',
+ wisp: "wss://wisp.pydust.cloud/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/active/uv/uv.handler.js",

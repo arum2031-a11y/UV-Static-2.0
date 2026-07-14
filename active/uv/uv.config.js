@@ -16,7 +16,8 @@
 //  ⠀⠀⠀⠀⠀⠀⠐⢫⠏⢸⠁⠀⠈⢳⠘⢧⣙⢦⠀⠀⠀
 
 self.__uv$config = {
-  prefix: "/active/uv/service/",
+  prefix: "/active/uv/",
+  wisp: "wss://wisp.tomp.app/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/active/uv/uv.handler.js",

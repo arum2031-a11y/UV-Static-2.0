@@ -1,6 +1,7 @@
 self.__uv$config = {
   prefix: "/active/uv/",
-  wisp: "wss://flfvp-89-38-97-206.run.pinggy-free.link/",
+  // We use an active public wisp cluster link
+  wisp: "wss://wisp.mercurywork.shop/", 
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/active/uv/uv.handler.js",
